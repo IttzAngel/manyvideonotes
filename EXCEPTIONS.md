@@ -1,0 +1,10 @@
+- an exception is an unexpected event that occurs at runtime due to an error and disrupt the normal flow of a program
+- you can handle exceptions so you program doesnt crash and can throw an error that lets it continue
+- try catch can try the method, then catch is to catch exceptions
+- it is helpful to print out a mesage for users, such as "this does not exist" or something similar
+- Exception is the superclass of all exceptions, and can be used
+- when using catch, make sure to start with subclass, that way it can never go past the least most class and you cna also use multiple catches
+- finally is a block of code that always executes, whether or not there was an exception
+- make sure what you want to do is inside the scope, not just in the try block
+- you can also rethrow exceptions
+- as the programmer you can choose to throw exceptions, even though java itself may not throw one
